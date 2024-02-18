@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "etTG1QB9y96DRAgAuyuLfdanap2GhQe4/8KghjUNy9w=",
+  "Source": "SYSMCLTD.customerManagment.Api",
+  "BasePath": "_content/SYSMCLTD.customerManagment.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

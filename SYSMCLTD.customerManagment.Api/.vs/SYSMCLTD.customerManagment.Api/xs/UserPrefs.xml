@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{E0A5C2EA-6AFB-441D-81FF-8CF5CA0CD67F}|https">
+  <MonoDevelop.Ide.Workbench ActiveDocument="appsettings.json">
+    <Files>
+      <File FileName="model/Customer.cs" Line="10" Column="45" IsPinned="True" />
+      <File FileName="controller/customerController.cs" Line="60" Column="1" />
+      <File FileName="Program.cs" Line="71" Column="1" />
+      <File FileName="model/Contact.cs" Line="17" Column="6" />
+      <File FileName="db/CustomerDbContext.cs" Line="28" Column="58" />
+      <File FileName="model/Address.cs" Line="16" Column="6" />
+      <File FileName="service/CustomerService.cs" Line="36" Column="10" />
+      <File FileName="appsettings.Development.json" Line="9" Column="1" />
+      <File FileName="global.json" Line="7" Column="1" />
+      <File FileName="appsettings.json" Line="13" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SYSMCLTD.customerManagment.Api" expanded="True">
+            <Node name="SYSMCLTD.customerManagment.Api">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="controller" expanded="True" />
+              <Node name="db" expanded="True" />
+              <Node name="model" expanded="True" />
+              <Node name="service" expanded="True" />
+              <Node name="appsettings.json" expanded="True" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.SYSMCLTD.customerManagment.Api PreferredExecutionTarget="/Users/orkadosh/Desktop/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
