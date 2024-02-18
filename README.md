@@ -11,8 +11,8 @@ Open SYSMCLTD.customerManagment.Api project in terminal and type the commands be
 # Client app-SYSMCLTD.customerManagment.Web(Angular 17)
 Open SYSMCLTD.customerManagment.Web project and open the terminal In src folder   project :
 
--run npm install
--run command : ng serve
+*run npm install
+*run command : ng serve
 
 
 # Database:
