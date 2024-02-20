@@ -14,6 +14,5 @@ namespace SYSMCLTD.customerManagment.Api.model
         [JsonIgnore]
         public Customer Customer { get; set; }
     }
-
 }
 
