@@ -1,0 +1,29 @@
+<!-- customer-list.component.html -->
+
+  <!-- src/app/customer-list/customer-list.component.html -->
+  <a routerLink="/addCustomer">new Custoamer</a>
+<div class="customer-table">
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Customer number</th>
+        <th>Deleted</th>
+        <th>Created</th>
+
+        <!-- Add other headers as needed -->
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let customer of customers$ | async"  (click)="showCustomerDetails(customer.id)">
+        <td>{{ customer.id }}</td>
+        <td>{{ customer.fullName }}</td>
+        <td>{{ customer.customerNumber }}</td>
+        <td>{{ customer.isDeleted }}</td>
+        <td>{{ customer.created | date:'dd/MM/yyyy HH:mm:ss' }}</td>
+        <!-- Add other cells as needed -->
+      </tr>
+    </tbody>
+  </table>
+</div>

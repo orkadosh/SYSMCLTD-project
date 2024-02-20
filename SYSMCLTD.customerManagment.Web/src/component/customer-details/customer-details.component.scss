@@ -1,0 +1,45 @@
+/* src/app/customer-details/customer-details.component.css */
+.customer-details-container {
+    max-width: 800px;
+    margin: 20px auto;
+    min-height: 400px;
+  }
+  .actionButtons{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+  }
+  .nav-tabs {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .nav-link {
+    color: white;
+  }
+  
+  .tab-content {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .tab-pane {
+    margin-top: 20px;
+  }
+  
+  h4 {
+    color: #007bff;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Add any additional styling as needed */
+  

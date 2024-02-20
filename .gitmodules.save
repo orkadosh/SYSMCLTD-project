@@ -1,0 +1,3 @@
+[submodule "SYSMCLTD.customerManagment.Web"]
+    path = SYSMCLTD.customerManagment.Web
+    url = https://github.com/orkadosh/SYSMCLTD-project

@@ -1,0 +1,48 @@
+<!-- src/app/customer-details/customer-details.component.html -->
+<div>
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link active" data-bs-toggle="tab" href="#customerDetailsTab">Customer Details</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="tab" href="#customerContactsTab">Customer Contacts</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="tab" href="#customerAddressTab">Address Details</a>
+      </li>
+    </ul>
+  
+    <div class="tab-content mt-2">
+      <!-- Customer Details Tab -->
+      <div class="tab-pane fade show active" id="customerDetailsTab">
+        <h4>Customer Details</h4>
+        <!-- Display customer details here -->
+        <p>Full Name: {{ customer?.fullName }}</p>
+        <p>Customer Number: {{ customer?.customerNumber }}</p>
+        <p>ID: {{ customer?.id }}</p>
+        <p>Is Deleted: {{ customer?.isDeleted }}</p>
+        <p>Created: {{ customer?.created | date }}</p>
+      </div>
+  
+      <!-- Customer Contacts Tab -->
+      <div class="tab-pane fade" id="customerContactsTab">
+        <h4>Customer Contacts</h4>
+        <!-- Display customer contacts here -->
+        <ul>
+          <li>Contact 1</li>
+          <li>Contact 2</li>
+          <!-- Add contacts dynamically based on the fetched data -->
+        </ul>
+      </div>
+  
+      <!-- Customer Address Tab -->
+      <div class="tab-pane fade" id="customerAddressTab">
+        <h4>Address Details</h4>
+        <!-- Display customer address details here -->
+        <p>Address Line 1: {{customer?.address?.addressLine1 }}</p>
+        <p>City: {{ customer?.address?.city }}</p>
+        <!-- Add other address details based on the fetched data -->
+      </div>
+    </div>
+  </div>
+  

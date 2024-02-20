@@ -1,0 +1,25 @@
+/* src/app/customer-list/customer-list.component.css */
+.customer-table {
+    width: 80%; /* Adjust the width as needed */
+    margin: 20px auto; /* Center the table horizontally */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  thead {
+    background-color: #333;
+    color: white;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Add any additional styling as needed */
+  

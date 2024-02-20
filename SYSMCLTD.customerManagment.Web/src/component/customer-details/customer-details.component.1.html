@@ -1,0 +1,41 @@
+<div class="customer-details-container">
+  <div class="actionButtons">
+    <button  (click)="addContacts()">add contact</button>
+    <button  (click)="deleteCustomer()">delete Customer</button>
+  </div>
+<app-tabs [tabs]="tabs" #tabsComponent>
+  <div *ngIf="tabsComponent.selectedTab && tabsComponent.selectedTab.title  === 'Customer Details'">
+    <!-- Content for Tab 1 -->
+    <ng-container>
+      <!-- your-component.component.html -->
+      <button (click)="updateCustomer()">
+        <i class="fas fa-sync-alt"></i> Update
+      </button>
+      <h4>Customer Details</h4>
+      <!-- Display customer details here -->
+      <p>Full Name: {{ customer?.fullName }}</p>
+      <p>Customer Number: {{ customer?.customerNumber }}</p>
+      <p>ID: {{ customer?.id }}</p>
+      <p>Is Deleted: {{ customer?.isDeleted }}</p>
+      <p>Created: {{ customer?.created | date }}</p>
+    </ng-container>
+  </div>
+  <div *ngIf="tabsComponent.selectedTab && tabsComponent.selectedTab.title === 'Address'">
+    <!-- Content for Tab 2 -->
+    <ng-container>
+    <h4>Address Details</h4>
+    <app-address [customer]="customer"></app-address>
+    <!-- Display customer address details here -->
+  </ng-container>
+    <!-- Add other address details based on the fetched data -->
+  </div>
+  <div  *ngIf="tabsComponent.selectedTab && tabsComponent.selectedTab.title === 'Contacts'">
+    <ng-container *ngIf="customerId">
+      <h4>Customer Contacts</h4>
+      <!-- Display customer contacts here -->
+    <app-contact-list [customerId]="customerId" ></app-contact-list>
+    </ng-container>
+  </div>
+  <!-- Add more tab content as needed -->
+</app-tabs>
+</div>
